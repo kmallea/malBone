@@ -41,9 +41,7 @@ var App = (function(){
 			}
 		},
 		log : function(){
-			if(options.isDev){
-				console.log(settings.appName + ': debug:' + options.isDev + ' ' , arguments);
-			}	
+			if(options.isDev){ console.log(settings.appName + ': debug:' + options.isDev + ' ' , arguments); }	
 		}	
 	}
 	
